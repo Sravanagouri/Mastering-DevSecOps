@@ -52,7 +52,7 @@ usermod -aG docker ansibleadmin
 # Install trivy https://github.com/aquasecurity/trivy/releases/download/v0.41.0/trivy_0.41.0_Linux-64bit.deb
 
 cd /usr/local/bin
-Wget https://github.com/aquasecurity/trivy/releases/download/v0.41.0/trivy_0.41.0_Linux-64bit.deb
+wget https://github.com/aquasecurity/trivy/releases/download/v0.41.0/trivy_0.41.0_Linux-64bit.deb
 dpkg -i trivy file
 Trivy
 
